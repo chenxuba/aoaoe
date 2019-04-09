@@ -31,4 +31,4 @@
 * Express搭建后端服务
 * Mongoose对MongoDB进行便捷操作
 ## 效果演示
-##### 未完待遇。。。
+![avatar](http://wx1.sinaimg.cn/mw690/006JrQflly1g1wnd7lp7pg30a90hn4qp.gif)
