@@ -4,21 +4,21 @@
 
 #### 注意：此项目为个人开发实践练习，不作为任何商业用途
 ## 前端功能
-*登录/注销
-*IP定位
-*搜索地址
-*后端获取商店(暂未实现计算当前位置和商店的距离)
-*加购物车
-*图片懒加载
-*路由懒加载
-*动态底部导航
+* 登录/注销
+* IP定位
+* 搜索地址
+* 后端获取商店(暂未实现计算当前位置和商店的距离)
+* 加购物车
+* 图片懒加载
+* 路由懒加载
+* 动态底部导航
 ## 技术栈
-*Webpack-cli搭建项目（vue2.0 cli3.0）
-*Vue全家桶(vue+vuex+vue-router)
-*CSS预处理器less
-*axios与后端进行请求数据
-*网络服务器存储图片
-*使用better-scroll滚动
-*Express搭建后端服务
-*Mongoose对MongoDB进行便捷操作
+* Webpack-cli搭建项目（vue2.0 cli3.0）
+* Vue全家桶(vue+vuex+vue-router)
+* CSS预处理器less
+* axios与后端进行请求数据
+* 网络服务器存储图片
+* 使用better-scroll滚动
+* Express搭建后端服务
+* Mongoose对MongoDB进行便捷操作
 ## 效果演示
