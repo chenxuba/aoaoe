@@ -5,6 +5,7 @@
 #### 注意：此项目为个人开发实践练习，不作为任何商业用途
 [前端Demo地址](http://aoaoe.chenruisheng.info)
 [后台管理Demo地址](http://www.chenruisheng.info/aoaoe/admin)
+#### ps：克隆下来后，安装依赖后，前端npm run dev 后台npm run serve 后端 nodemon 启动后直接可以链接上本人的远程数据库。
 ## 前端功能
 * 登录/注销
 * IP定位
