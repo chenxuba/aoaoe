@@ -15,8 +15,14 @@
 * 图片懒加载
 * 路由懒加载
 * 动态底部导航
+## 后台管理功能
+* 登录/注册/注销
+* Token验证
+* 请求拦截/响应拦截
+* 路由守卫
+* 店铺信息的增删改查
 ## 技术栈
-* Webpack-cli搭建项目（vue2.0 cli3.0）
+* Webpack-cli搭建项目（vue2.0/vue-cli3.0）
 * Vue全家桶(vue+vuex+vue-router)
 * CSS预处理器less
 * axios与后端进行请求数据
