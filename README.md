@@ -31,5 +31,7 @@
 * 使用better-scroll滚动
 * Express搭建后端服务
 * Mongoose对MongoDB进行便捷操作
+* element-ui应用
+* rem相对单位应用
 ## 效果演示
 ![avatar](http://wx1.sinaimg.cn/mw690/006JrQflly1g1wnd7lp7pg30a90hn4qp.gif)
