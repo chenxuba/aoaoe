@@ -108,6 +108,7 @@ export default {
   height: 85px;
   display: flex;
   background-color: #3ca1e2;
+  padding-top: 40px;
   .back {
     width: 85px;
     height: 85px;

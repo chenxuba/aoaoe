@@ -89,6 +89,7 @@ export default {
       width: 100%;
       .van-nav-bar {
         background-color: #0299ff;
+        padding-top: 40px;
         div {
           color: #fff;
         }

@@ -169,7 +169,7 @@ export default {
   height: 100%;
   background: #fff;
   .loginInner {
-    padding-top: 120px;
+    padding-top: 250px;
     width: 80%;
     margin: 0 auto;
     .login_header {
@@ -278,7 +278,7 @@ export default {
     }
     .go_back {
       position: absolute;
-      top: 10px;
+      top: 50px;
       left: 30px;
       width: 60px;
       height: 60px;

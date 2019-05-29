@@ -119,7 +119,7 @@ export default {
 }
 .shop-list-item {
   display: flex;
-  padding: 10px 0;
+  padding: 40px 0;
   margin-bottom: 5px;
   position: relative;
   .left {

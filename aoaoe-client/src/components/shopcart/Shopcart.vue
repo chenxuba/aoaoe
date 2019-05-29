@@ -174,10 +174,10 @@ export default {
       }
       .num {
         width: 40px;
-        height: 30px;
-        line-height: 30px;
+        height: 40px;
+        line-height: 40px;
         border-radius: 50%;
-        font-size: 18px;
+        font-size: 26px;
         color: white;
         background: red;
         position: absolute;
@@ -197,7 +197,7 @@ export default {
         line-height: 102px;
         &.highligh {
           line-height: 40px;
-          font-size: 16px;
+          font-size: 28px;
         }
       }
       .total-price {

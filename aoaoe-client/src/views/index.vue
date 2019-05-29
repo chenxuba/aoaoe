@@ -23,7 +23,7 @@
     <!--swiper区域结束-->
     <!--banner区域开始-->
     <div class="autoplay">
-      <van-swipe :autoplay="1000" v-if="banner.length">
+      <van-swipe :autoplay="3000" v-if="banner.length">
         <van-swipe-item v-for="(image, index) in banner" :key="index">
           <img v-lazy="image.banner" class="banner">
         </van-swipe-item>
@@ -123,7 +123,7 @@ export default {
   /* 头部 */
   .header {
     background-color: #0099ff;
-    padding: 0 20px;
+    padding: 40px 20px 0  20px;
     box-sizing: border-box;
   }
 

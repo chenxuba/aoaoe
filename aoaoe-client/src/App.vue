@@ -84,7 +84,7 @@ function setFontSize() {
 <style lang="less">
 html,body,#app{
   width: 100%;
-  height: 100%;
+  // height: 100%;
 }
 .nav1 {
   width: 100%;

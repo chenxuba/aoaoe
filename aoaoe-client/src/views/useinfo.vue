@@ -96,6 +96,7 @@ export default {
     line-height: 88px;
     display: flex;
     background-color: #0090ef;
+    padding-top: 60px;
     .left {
       width: 88px;
       height: 88px;

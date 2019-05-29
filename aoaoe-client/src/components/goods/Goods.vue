@@ -110,24 +110,27 @@ export default {
     },
     //计算区间分类高度
     calulateHeight() {
+      console.log(1)
       //获取元素
       let foodlist = this.$refs.foodScroll.getElementsByClassName(
         "food-list-hook"
       );
+      console.log(2)
       // console.log(foodlist)
       let height = 0; //定义一个height，最顶部的位置，为0
       this.listheight.push(height); //把当前的位置高度push进刚刚定义的数组里去
-      // console.log(height) 0
+      console.log(height) 
       //遍历一下刚刚拿到的li元素，即：foodlist
       for (let i = 0; i < foodlist.length; i++) {
         //拿到每一个li元素
+      console.log(i)
         let item = foodlist[i];
         //把每一个li元素的可视高度进行一个累加 即:clientHeight
         height += item.clientHeight;
         // console.log(height)
         //这个时候把每一个li的可视高度都放进listHeight数组里
         this.listheight.push(height);
-        console.log(this.listheight);
+        // console.log(this.listheight);
       }
     },
     selectMenu(index) {
@@ -209,7 +212,7 @@ export default {
 .goods {
   display: flex;
   position: absolute;
-  top: 410px;
+  top: 450px;
   bottom: 102px;
   width: 100%;
   overflow: hidden;
@@ -267,10 +270,10 @@ export default {
         .icon {
           flex: 0 0 126px;
           background-position: center;
-          background-size: 120% 100%;
+          background-size: 100% 100%;
           background-repeat: no-repeat;
           margin-right: 22px;
-          height: 150px;
+          height: 126px;
         }
         .content {
           flex: 1;
@@ -335,7 +338,7 @@ export default {
         color: white;
         background: red;
         text-align: center;
-        font-size: 16px;
+        font-size: 26px;
         line-height: 30px;
       }
     }

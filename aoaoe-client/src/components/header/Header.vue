@@ -151,10 +151,10 @@ export default {
 
 .header {
   height: 280px;
-  padding-top: 40px;
+  padding-top: 80px;
   .bg-wrapper {
     width: 100%;
-    height: 325px;
+    height: 355px;
     position: absolute;
     left: 0;
     top: 0;
@@ -197,6 +197,8 @@ export default {
         border-radius: 50px;
         padding-left: 56px;
         outline: none;
+        font-size: 26px;
+        line-height: normal;
       }
     }
     .more-wrapper {
@@ -313,7 +315,7 @@ export default {
     .detail-wrapper {
       width: 100%;
       height: 100%;
-      padding: 86px 40px 250px;
+      padding: 150px 40px 250px;
       box-sizing: border-box;
       .main-wrapper {
         width: 100%;

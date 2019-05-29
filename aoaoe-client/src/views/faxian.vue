@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="faxian">
-      <div class="left">
+      <!-- <div class="left">
         <div class="img1" v-for="(item,index) in list" :key="index">
           <img v-lazy="item.url" alt width="100%" height="100%">
         </div>
@@ -35,7 +35,9 @@
           <img v-lazy="item.url" alt width="100%" height="100%">
         </div>
       </div>
-    </div>
+    </div> -->
+    <img src="../../static/img/Wechat.png" alt="" width="100%" height="100%">
+  </div>
   </div>
 </template>
 
@@ -101,8 +103,10 @@ export default {
 <style lang="less" scoped>
 .faxian {
   width: 100%;
-  height: 100%;
-  padding-bottom: 88px;
+  height: 100%; 
+  // padding-bottom: 88px;
+  background: linear-gradient(to left, #008dff , #18b3fe);
+  padding-top: 50px;
   display: flex;
   .left {
     width: 50%;
