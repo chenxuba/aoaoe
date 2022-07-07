@@ -11,7 +11,7 @@
     "core-js": "^2.6.5",
     "element-ui": "^2.4.11",
     "jwt-decode": "^2.2.0",
-    "moment": "^2.23.0",
+    "moment": "^2.29.4",
     "vue": "^2.5.17",
     "vue-picture-preview": "^1.2.1",
     "vue-quill-editor": "^3.0.6",
